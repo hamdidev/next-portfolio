@@ -29,7 +29,7 @@ const About = () => {
             <AboutSpan>Innovate. Design. Build.</AboutSpan>
             <TextWrapper>
               <FeatureText>
-                Hi! 👋 I&apos;m Muhammed, a front end developer with 3.5+ years
+                Hi! 👋 I{"'"}m Muhammed, a front end developer with 3.5+ years
                 of experience in web dev freelancing, based in Turkey. I enjoy
                 creating things that live on the internet, whether that be
                 websites, applications, or anything in between. My goal is to
