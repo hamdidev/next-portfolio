@@ -17,8 +17,6 @@ import {
   AboutImgContainer,
 } from "./AboutStyle";
 
-import { featuresData } from "../../data/FeaturesData";
-
 const About = () => {
   return (
     <FeatureSection id="about">
@@ -31,15 +29,15 @@ const About = () => {
             <AboutSpan>Innovate. Design. Build.</AboutSpan>
             <TextWrapper>
               <FeatureText>
-                Hi! 👋 I'm Muhammed, a front end developer with 3.5+ years of
-                experience in web dev freelancing, based in Turkey. I enjoy
+                Hi! 👋 I&apos;m Muhammed, a front end developer with 3.5+ years
+                of experience in web dev freelancing, based in Turkey. I enjoy
                 creating things that live on the internet, whether that be
                 websites, applications, or anything in between. My goal is to
                 always build products that provide pixel-perfect and performant
                 experiences. Here are a few technologies I've been working with
                 recently:
                 <SkillList>
-                  <Skill>HTML & (S)CSS</Skill>
+                  <Skill>HTML {"&"} (S)CSS</Skill>
                   <Skill>JavaScript (ES6+)</Skill>
                   <Skill>React</Skill>
                   <Skill>WordPress</Skill>

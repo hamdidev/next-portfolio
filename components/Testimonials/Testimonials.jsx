@@ -14,6 +14,7 @@ import { TestimonialData } from "../../data/testimonials";
 import { Pagination } from "swiper";
 
 import { Swiper, SwiperSlide } from "swiper/react";
+import Image from "next/image";
 
 // import "swiper/scss";
 // import "swiper/scss/pagination";
@@ -39,7 +40,13 @@ const Testimonials = () => {
                 return (
                   <SwiperSlide key={id} className="testimonial">
                     <div className="client__avatar">
-                      <img className="client__img" src={avatar} alt="" />
+                      <Image
+                        className="client__img"
+                        width={75}
+                        height={75}
+                        src={avatar}
+                        alt=""
+                      />
                     </div>
                     <h5 className="client__name">{name}</h5>
 

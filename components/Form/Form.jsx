@@ -70,7 +70,7 @@ const Form = () => {
       <Container>
         <FormRow>
           <FormColumn>
-            <FormTitle>Let's Talk</FormTitle>
+            <FormTitle>Let&apos;s Talk</FormTitle>
             <FormWrapper onSubmit={handleSubmit}>
               <FormInputRow>
                 <FormLabel htmlFor="name">Name</FormLabel>
@@ -107,7 +107,7 @@ const Form = () => {
                 {errors.message && <p>{errors.message}</p>}
               </FormInputRow>
 
-              <FormButton type="submit">Let's talk</FormButton>
+              <FormButton type="submit">Let&apos;s talk</FormButton>
             </FormWrapper>
           </FormColumn>
         </FormRow>
